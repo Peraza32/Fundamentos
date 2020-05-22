@@ -11,11 +11,15 @@ int main(){
 
     //Entrada de datos
     cout << "Bienvenido" <<endl;
-    cout <<"Vamos a identificar si una palabra termina con la letra con la cual inicia "
+    cout <<"Vamos a identificar si una palabra termina con la letra con la cual inicia " <<endl;
+    cout << "NOTA: Las letras mayusculas y minusculas seran tomadas como distintas" <<endl;
     cout << "Ingrese la palabra " <<endl;
     cin >> palabra;
 
-
+    if(palabra[0] == palabra[palabra.length()-1])
+        cout << "La palabra termina con la misma letra con la cual inicia";
+    else
+        cout << "La palabra no termina con la misma letra con la cual inicia";
 
     
     return 0;
