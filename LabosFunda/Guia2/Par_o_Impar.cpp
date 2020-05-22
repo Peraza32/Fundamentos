@@ -13,7 +13,7 @@ int main(){
     cout << "Bienvenido \n";
     cout << "Vamos a determinar si un numero es par o impar" <<endl;
     cout << "Ingrese el numero a determinar \n";
-    cin >> num;
+    cin >> num ;
 
 
     //Salida de datos 

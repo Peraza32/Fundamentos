@@ -6,7 +6,7 @@ using namespace std;
 int main(){
 
     //Declaracion de variables
-    int divisor = 0, dividendo = 0;
+    int divisor = 0 , dividendo = 0;
 
 
     //Peticion de Datos

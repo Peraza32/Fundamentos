@@ -8,7 +8,7 @@ using namespace std;
 int main(){
 
     //Declaracion de datos 
-    string palabra = "";
+    string palabra = " ";
     int a = 0;
 
     //Peticion de datos 

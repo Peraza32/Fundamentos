@@ -13,7 +13,7 @@ int main(){
     cout << "Ingrese el numero a determinar \n";
     cin >> num;
 
-    if(num > 0 )
+    if( num > 0 )
         cout << num <<" es un numero positivo";
     else if (num < 0)
         cout << num <<" es un numero negativo";
