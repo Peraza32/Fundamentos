@@ -8,7 +8,6 @@ int main()
 {
     //Declaracion de variables
     int year = 0;
-
     //Peticion de datos
     cout << "Ingrese el año a determinar si es bisiesto o no ";
     cin >> year;
@@ -19,10 +18,6 @@ int main()
         cout << "El año " << year << " no es bisiesto";
 
     return 0;
-
-
-
-
 }
 
 bool Bisiesto(int year)
@@ -33,6 +28,5 @@ bool Bisiesto(int year)
     else if( ( year % 4 == 0 ) && (year % 100 != 0) )
         return true;
     else 
-        return false; //si no se cumplen, el anio no es bisiesto
-    
+        return false; //si no se cumplen, el anio no es bisiesto  
 }
