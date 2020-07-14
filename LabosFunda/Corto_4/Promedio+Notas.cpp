@@ -77,4 +77,9 @@ void Mostrar(float **alumnos, int size)
         else
             cout << " Reprobado" <<endl;
     }
+
+    for(int i = 0; i <size; i++)
+        delete[] alumnos[i];
+    
+    delete [] alumnos[];
 }

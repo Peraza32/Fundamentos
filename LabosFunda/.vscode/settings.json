@@ -6,6 +6,7 @@
         "iomanip": "cpp",
         "string": "cpp",
         "xstring": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "ios": "cpp"
     }
 }
